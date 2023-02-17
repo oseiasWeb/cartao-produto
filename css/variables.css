@@ -1,6 +1,7 @@
 :root {
     --cor-preco: hsl(158, 36%, 37%);
-    --cor-de-fundo: hsl(30, 38%, 92%);
+    --cor-de-fundo: hsl(60, 7%, 73%);
+    --cor-fundo-descricao: hsl(0, 0%, 100%);
     --cor-titulo:  hsl(212, 21%, 14%);
     --cor-descricao: hsl(228, 12%, 48%);
 }

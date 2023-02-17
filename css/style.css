@@ -1,19 +1,85 @@
 /* font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
 
-html {
-    font-family: 'Montserrat', sans-serif;
+body {
+    background-color: var(--cor-de-fundo);
 }
 
-body {
-    background-color: var(--background);
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .cartao-produto {
-    background-color: aquamarine;
+    background-color: var(--cor-fundo-descricao);
+    max-width: 600px;
+    border-radius: 10px;
     display: flex;
 }
 
-.valor-produto {
+img {
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cartao-produto .info-produto {
+    margin-left: 32px;
+}
+
+.cartao-produto .info-produto h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.cartao-produto .info-produto h1 { 
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-top: 13px;
+    line-height: 35px;
+    color: var(--cor-titulo);
+}
+
+.cartao-produto .info-produto .descricao-produto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 24px;
+    line-height: 22px;
+    color: var(--cor-descricao);
+}
+
+.cartao-produto .valor-produto {
     display: flex;
+}
+
+.cartao-produto .valor-produto .novo-valor {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    margin-top: 5px;
+    color: var(--cor-preco);
+}
+
+.cartao-produto .valor-produto .antigo-valor {
+    color: var(--cor-descricao);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.cartao-produto .info-produto .btn-valor-produto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--cor-fundo-descricao);
+    background-color: var(--cor-preco);
+    margin-top: 25px;
+    height: 50px;
+    width: 235px;
+    border: none;
+    border-radius: 10px;
 }
