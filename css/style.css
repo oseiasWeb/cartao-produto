@@ -1,0 +1,19 @@
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.cartao-produto {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.valor-produto {
+    display: flex;
+}
